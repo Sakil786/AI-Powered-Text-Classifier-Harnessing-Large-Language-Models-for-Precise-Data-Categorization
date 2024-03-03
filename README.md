@@ -73,3 +73,13 @@ Following steps are performed to build the system:
 For simplicity, I have selected 100 data points for inference, and within this sample, there are 24 categories.
 
 ![](https://github.com/Sakil786/AI-Powered-Text-Classifier-Harnessing-Large-Language-Models-for-Precise-Data-Categorization/blob/main/image1.png)
+
+Out of 100 records , the model is able to predict 46 records correctly .
+Note : The inference result can be found in csv file entitled : **inference data cat2 with accuracy.csv**
+### Input to your prompt will be a text from column name Text, and output should be class name from Column Name Cat 3
+For simplicity, I have selected 100 data points for inference, and within this sample, there are 34 categories.
+![](https://github.com/Sakil786/AI-Powered-Text-Classifier-Harnessing-Large-Language-Models-for-Precise-Data-Categorization/blob/main/image2.png)
+
+Out of 100 records , the model is able to predict 14 records correctly .
+Note : The inference result can be found in csv file entitled :** inference data cat3 with accuracy.csv**
+
