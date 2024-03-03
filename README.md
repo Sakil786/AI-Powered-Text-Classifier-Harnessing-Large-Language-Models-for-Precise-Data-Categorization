@@ -49,3 +49,23 @@ Following steps are used for fine tuning the Model:
 - We are going to use PEFT technique for fine tuning the model to save the computation and cost.
 - Finally training has been started .
 - I have pushed the fine tuned model to hugging face hub : [Model](https://huggingface.co/Sakil/llama2-fine-tuned-classfier-cat3 "Model")
+
+## EXPERIMENT WITH FINE TUNED MODEL AND PROMPTING TECHNIQUES
+We utilized [Langchain](https://python.langchain.com/docs/get_started/introduction "Langchain") along with our fine-tuned model to build the classifier.
+### Input to your prompt will be a text from column name Text, and output should be class name from Column Name Cat 2
+Following steps are performed to build the system:
+- Load the inference data which was done in data preparation step
+- Import PromptTemplate, LLMChain from Langchain
+- Create the list of unique categories from the column Cat 2 from the inference data.
+- Develop a prompt
+- I have followed few short prompting for the purpose our task.
+- For more details : Please refer the Notebook : **training cat2 llama2.ipynb**
+### Input to your prompt will be a text from column name Text, and output should be class name from Column Name Cat 3
+Following steps are performed to build the system:
+- Load the inference data which was done in data preparation step
+- Import PromptTemplate, LLMChain from Langchain
+- Create the list of unique categories from the column Cat 3 from the inference data.
+- Develop a prompt
+- I have followed few short prompting for the purpose our task.
+- For more details : Please refer the Notebook : **training cat3 llama2.ipynb**
+
