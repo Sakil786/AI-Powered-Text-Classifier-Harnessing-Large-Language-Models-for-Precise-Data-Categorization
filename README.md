@@ -71,3 +71,5 @@ Following steps are performed to build the system:
 ## RESULT & METRICS
 ### Input to your prompt will be a text from column name Text, and output should be class name from Column Name Cat 2
 For simplicity, I have selected 100 data points for inference, and within this sample, there are 24 categories.
+
+![](https://github.com/Sakil786/AI-Powered-Text-Classifier-Harnessing-Large-Language-Models-for-Precise-Data-Categorization/blob/main/image1.png)
