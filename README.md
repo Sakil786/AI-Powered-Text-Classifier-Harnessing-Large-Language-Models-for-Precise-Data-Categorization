@@ -68,4 +68,6 @@ Following steps are performed to build the system:
 - Develop a prompt
 - I have followed few short prompting for the purpose our task.
 - For more details : Please refer the Notebook : **training cat3 llama2.ipynb**
-
+## RESULT & METRICS
+### Input to your prompt will be a text from column name Text, and output should be class name from Column Name Cat 2
+For simplicity, I have selected 100 data points for inference, and within this sample, there are 24 categories.
