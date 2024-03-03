@@ -82,4 +82,11 @@ For simplicity, I have selected 100 data points for inference, and within this s
 
 Out of 100 records , the model is able to predict 14 records correctly .
 Note : The inference result can be found in csv file entitled :** inference data cat3 with accuracy.csv**
+## IMPROVEMENT SUGGESTIONS
+- The model is demonstrating satisfactory performance for the category Cat2 .
+- Enhancing the results is possible by incorporating diverse sample categories and experimenting with various prompts.
+- Fine-tuning with specific prompts has the potential to enhance the results for cat3.
+- Implementing the RAG technique could potentially enhance the outcomes for both cat2 and cat3.
+## Explore, Appreciate, and Give the Repository a Shining ⭐
+Feel free to explore the repository and show your appreciation by giving it a star⭐! Your support means a lot! 😉
 
